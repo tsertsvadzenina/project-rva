@@ -1,0 +1,68 @@
+
+
+#logo{
+    width: 150px;
+    color: white;
+}
+
+p {
+    color: burlywood;
+}
+
+h2 {
+    color: black;
+}
+
+article{
+    background-color: purple;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+footer{
+    background-color: red;
+}
+
+.large_header{
+
+    font-size: 100px;
+}
+
+footer p, header a{
+    color: black;
+    font-weight: bold;
+}
+
+#Services-Wrapper div {
+    width: 400px;
+}
+
+#Services-Wrapper img{
+    width: 100%;
+}
+
+#Services-Wrapper, ul, header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Services-Wrapper{
+    justify-content: space-around;
+}
+
+#header{
+    justify-content: center;
+}
+
+#Services-Wrapper{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    gap: 50px;
+}
